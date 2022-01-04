@@ -1,0 +1,65 @@
+.content{
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    padding: 5px 20px;
+    width:300px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+#addBtn{
+    margin-left: 10px;
+    background-color: orange;
+    padding: 5px 10px;   
+}
+.List{
+    position: relative;
+    left: -40px;
+}
+.head{
+    display:block
+}
+ul{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    list-style: none;
+}
+li{
+    display: inline-flex;
+    justify-content: space-between;
+    margin:10px;
+    padding:10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width:300px;
+    text-align: left;
+    list-style-type: none;
+}
+.item{
+    width: 200px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.doneBtn{
+    text-decoration: line-through;
+}
+#doneBtn{
+    background-color: greenyellow;
+    padding: 3px 10px;
+    text-decoration:none !important;
+}
+#delBtn{
+    background-color: red;
+    padding: 3px 10px;
+    text-decoration:none;
+}
